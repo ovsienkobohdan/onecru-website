@@ -1,0 +1,140 @@
+.mainpage {
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mainpage__header {
+  background-color: red;
+  height: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.mainpage__header--logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.mainpage__nav--list {
+  width: 160px;
+  height: 24px;
+  margin: 16px;
+  display: block;
+  border: none;
+}
+
+.mainpage__nav {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 31px;
+  overflow: hidden;
+}
+
+.mainpage__nav--list--button {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.mainpage__nav--list {
+  float: right;
+}
+
+.mainpage__nav--list--button:hover {
+  padding: 5px;
+  border: 1px dotted white;
+}
+
+/* Articles */
+
+.mainpage__artlist--article--link--photo {
+  margin-right: 12px;
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 0px;
+  float: left;
+  clear: left;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.mainpage__artlist {
+  float: left;
+  list-style-type: none;
+  color: #494949;
+  width: 640px;
+  margin-top: 5px;
+  padding-left: 0px;
+} 
+
+.mainpage__artlist--article {
+  background-color: #f5f5f5;
+  padding: 1px 15px;
+  margin: 25px;
+  min-height: 180px;
+  margin-left: 0px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+} 
+
+.mainpage__artlist--article--link {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  margin-top: -6px;
+  color: black;
+} 
+
+.mainpage__artlist--article--content {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Aside */
+.mainpage__asideinfo--photo {
+  width: 260px;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.mainpage__asideinfo{
+  float: right;
+  width: 320px;
+  background: #e8e8e8;
+  margin-top: 30px;
+  min-height: 860px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.mainpage__asideinfo--list {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+/* Footer */
+.mainpage__footer {
+  background: red;
+  height: 40px;
+  text-align: center;
+  padding: 20px;
+	margin-top: 30px;
+  display: inline-block;
+  width:920px;
+  border-radius: 5px 5px 0px 0px; 
+  color: white;
+  font-size: 12px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
