@@ -94,7 +94,7 @@ body {
 	padding-right: 19px;
 	padding-top: 244px;
 }
-.filmtitle {
+.film-title {
 	color: black;
 	text-overflow: ellipsis;
     white-space: nowrap;
@@ -137,7 +137,7 @@ body {
 	display: inline;
 }
 
-.filmrate {
+.film-rate {
 	font-size: 12px;
 	float: right;
 	margin: 0px;
@@ -192,6 +192,12 @@ body {
 	margin-top: -244px;
 	margin-bottom: 23px;
 }
+
+
+
+
+
+
 
 
 
