@@ -1,15 +1,13 @@
 body {
 	margin: 0;
+	background-color: #f5f6f6;
 }
 .movie {
-	margin: 0;
-	padding-right: 109px;
-	padding-top: 35px;
-	padding-left: 109px;
-	padding-bottom: 48px;
-	background-color: f5f6f6;
-	font-family: HelveticaNeue;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "HelveticaNeue", arial, sans-serif;
 	width: 1060px;
+
 }
 .movie-navigation {
 	font-size: 14px;
@@ -40,7 +38,6 @@ body {
 	text-decoration: none;
 	color: #0aaee4;
 	float: left;
-	padding-left: auto;
 	padding-bottom: 7px;
 
 }
@@ -65,6 +62,7 @@ body {
 .listview {
 	display: inline-block;
 	float: right;
+	clear: right;
 	width: 18px;
     height: 16px;
     background: url("sprites.png") no-repeat;
@@ -75,30 +73,20 @@ body {
 
 .gridview {
 	display: inline-block;
+	margin-left: 499px;
 	width: 18px;
     height: 16px;
     background: url("sprites.png") no-repeat;
     background-position: -31px -8px;
     text-indent: -19999px;
     overflow: hidden;
-    float: left;
 }
 
-.viewoption {
-	display: inline-block;
-	width: 44px;
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-
-.film-preview1 {
+.film-preview {
 	margin-top: 11px;
 	width: 211px;
 	height: 39px;
 	border-radius: 4px;
-	background: url(film1.png) no-repeat;
-	background-size: 250px 220px;
 	box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.04);
 	padding-bottom: 21px;
 	padding-left: 20px;
@@ -143,9 +131,9 @@ body {
 
 }
 
-.ganre-link {
-	text-decoration: none;
+.ganre-name {
 	color: #0aaee4;
+	display: inline;
 }
 
 .filmrate {
@@ -180,46 +168,8 @@ body {
 	margin-right: auto;
 }
 
-.film-preview2 {
-	margin-top: 11px;
-	width: 211px;
-	height: 39px;
-	border-radius: 4px;
-	background: url(film2.png) no-repeat;
-	background-size: auto 220px;
-	box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.04);
-	background-position-x: -102px;
-	padding-bottom: 21px;
-	padding-left: 20px;
-	padding-right: 19px;
-	padding-top: 244px;
-}
 
-.film-preview3 {
-	margin-top: 11px;
-	width: 211px;
-	height: 39px;
-	border-radius: 4px;
-	background: url(film3.png) no-repeat;
-	background-position-x: -96px;
-	background-size: auto 220px;
-	box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.04);
-	padding-bottom: 21px;
-	padding-left: 20px;
-	padding-right: 19px;
-	padding-top: 244px;
-}
 
-.film-preview4 {
-	margin-top: 11px;
-	width: 211px;
-	height: 39px;
-	border-radius: 4px;
-	background: url(ovsienkobohdan.github.io/film4.png) no-repeat;
-	background-size: auto 220px;
-	box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.04);
-	padding-bottom: 21px;
-	padding-left: 20px;
-	padding-right: 19px;
-	padding-top: 244px;
-}
+
+
+
