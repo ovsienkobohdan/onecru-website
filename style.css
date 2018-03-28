@@ -5,6 +5,7 @@ body {
 .movie {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 35px;
 	font-family: "HelveticaNeue", arial, sans-serif;
 	width: 1060px;
 
@@ -85,7 +86,7 @@ body {
 .film-preview {
 	margin-top: 11px;
 	width: 211px;
-	height: 39px;
+	height: 35px;
 	border-radius: 4px;
 	box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.04);
 	padding-bottom: 21px;
@@ -153,7 +154,7 @@ body {
 
 
 
-.filmarea {
+.film-area {
 	width: 1060px;
 	margin-top: 1px;
 	border-top: 1px solid rgba(0,0,0,0.1);
@@ -161,11 +162,35 @@ body {
 	justify-content: space-between;
 }
 
-.load {
+.load-status {
 	display: block;
 	margin-top: 36px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.load-title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: rgba(36, 43, 45, 0.35);
+	line-height: 1;
+	width: 46px;
+  	height: 8px;
+  	opacity: 0.35;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+.film-poster {
+	background-color: grey;
+	width: 250px;
+	height: 220px;
+	border-radius: 4px 4px 0px 0px;
+	display: block;
+	margin-left: -20px;
+	margin-top: -244px;
+	margin-bottom: 23px;
 }
 
 
