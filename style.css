@@ -178,9 +178,8 @@ body {
 	line-height: 1;
 	width: 46px;
   	height: 8px;
-  	opacity: 0.35;
-    letter-spacing: 0.4px;
-    text-align: center;
+        letter-spacing: 0.4px;
+        text-align: center;
 }
 .film-poster {
 	background-color: grey;
