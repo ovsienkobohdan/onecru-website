@@ -129,7 +129,6 @@ body {
     line-height: 1.33;
     letter-spacing: 0.5px;
     color: #0aaee4;
-
 }
 
 .ganre-name {
@@ -148,11 +147,7 @@ body {
     border: solid 1px #0aaee4;
     width: 16px;
     height: 9px;
-
-
 }
-
-
 
 .film-area {
 	width: 1060px;
@@ -178,8 +173,9 @@ body {
 	line-height: 1;
 	width: 46px;
   	height: 8px;
-        letter-spacing: 0.4px;
-        text-align: center;
+  	opacity: 0.35;
+    letter-spacing: 0.4px;
+    text-align: center;
 }
 .film-poster {
 	background-color: grey;
@@ -191,15 +187,3 @@ body {
 	margin-top: -244px;
 	margin-bottom: 23px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
