@@ -23,7 +23,7 @@ body {
 }
 
 
-.header-smth {
+.header-func {
 	float: right;
 	margin-top: 13px;
 }
@@ -151,11 +151,11 @@ body {
 	font-size: 14px;
 	color: #fff;
 }
-.second {
+.price-main {
 	display: block;
 	min-height: 102px;
 }
-.first {
+.price-btn {
 	justify-content: flex-end;
 }
 
