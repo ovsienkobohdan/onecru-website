@@ -1,0 +1,159 @@
+html{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*,*::before, *::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+
+}
+@font-face {
+	font-family: GroteskPRO-75bd;
+	src: url(fonts/NHaasGroteskTXPro-75Bd.ttf);
+}
+/* !!! */
+/* MOBILE */
+/* !!! */
+
+/* Main*/
+.mainpage_header{
+	padding: 60px 100px 0;
+	font-family: "GroteskPRO-75bd", Arial, sans-serif;
+	font-weight: bold;
+}
+.mainpage-logo{
+	display: block;
+	width: 80%; 
+	height: 80%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainpage_footer{
+	background: #212121;
+	padding: 18px 35px 16px 40px;
+	display:block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+.footer__insta{
+	float: right;
+}
+
+.header_nav-list{
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+.mainpage_nav{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-list-item{
+	margin-top: 62px;
+
+}
+.nav-item-link{
+	color: #231f20;
+	letter-spacing: 1.9px;
+	text-decoration: none;
+}
+
+.nav-item-link::before{
+	content: "";
+	background: url(img/spritesheet.png) 0 0;
+	width: 15px;
+    height: 15px;
+    background-position: -30px -5px;
+    display: block;
+    margin-top: -20px;
+	margin-left: 31px;
+	margin-bottom: 5px;
+}
+
+/* ABOUT */
+
+.mobilepage-header {
+	padding: 14px 32px 14px;
+	font-family: "GroteskPRO-75bd", Arial, sans-serif;
+
+
+}
+.moobilepage-header-logo{
+	margin-right: 18px;
+	width: calc(21px + 2%);
+	height: calc(41px + 2%);
+}
+
+.mobilepage-header-link{
+	text-decoration: none;
+	color: #231f20;
+	display: flex;
+	align-items: center;
+}
+.mobilepage-header-name{
+	letter-spacing: 1.9px;
+}
+.mobile-about{
+	text-align: justify;
+	font-family: "GroteskPRO-75bd", Arial, sans-serif;
+	color: #ed272f;
+	font-size: 10px;
+	letter-spacing: 1.2px;
+	margin: 9px 42px 44px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+.maps-mobile{
+	width: 100%;
+	height: 34%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+.mobile-about-end{
+	margin-top: 28px;
+}
+
+/* Contacts */
+
+.contact {
+	background-color: #ed272f;
+}
+
+.mobilepage-header-name_white {
+	color: #ffffff;
+
+}
+
+.contact-photo{
+	display:block;
+	width: calc(100px + 16%);
+	position: absolute;
+	bottom: 62px;
+	right: 0;
+}
+
+.contact-main {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 84%;
+	height: 400px;
+}
